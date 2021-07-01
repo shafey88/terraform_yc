@@ -1,0 +1,23 @@
+variable "token_yc" {
+    default = ""
+    description = "token yandex cloud"
+}
+variable "cloud_id" {
+    default = ""
+    description = "cloud id in start page yc"
+}
+variable "folder_id" {
+    default = ""
+    description = "folder id in address string"
+}
+
+variable "zone_id" {
+    default = "ru-central1-b"
+    description = "Name of zone network"
+}
+
+variable "image_id" {
+    default = ""
+    description = "Image id get from cli yc"
+}
+
